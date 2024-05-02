@@ -28,4 +28,10 @@ int main(){
     cout<<"Size of nums is: "<<sizeof(nums)<<endl;
     cout<<"Size of pointer is: "<<sizeof(ptr)<<endl;
 
+    int *p = &nums; //changing the value of 'a' doesn't changes nums  
+    int a = *p;
+    a++;
+    cout<<nums<<endl;
+    cout<<a;
+
 }
