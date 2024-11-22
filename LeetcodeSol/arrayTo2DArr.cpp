@@ -14,7 +14,7 @@ int main(){
         hash[nums[idx]-1]++;
     }
 
-    
+    //something
 
     for (int i:hash)
     {
