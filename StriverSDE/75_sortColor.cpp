@@ -1,9 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
 int main(){
-
+    vector <int> nums = {2,0,2,1,1,0};
     int s = 0, mid = 0, e = nums.size()-1;
     while(mid <= e){
         if(nums[mid] == 0){
@@ -22,4 +21,9 @@ int main(){
         }
     }
 
+    //print
+    for (int i = 0; i < nums.size(); i++)
+    {
+        cout<<nums[i]<<" ";
+    }
 }
